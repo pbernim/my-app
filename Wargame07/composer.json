@@ -1,0 +1,19 @@
+{
+    "name": "styde/oop",
+    "description": "Curso de OOP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piero Berni",
+            "email": "pbernim@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Styde\\": "src/"
+        }
+    }
+}

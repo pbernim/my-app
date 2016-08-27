@@ -1,0 +1,10 @@
+# Ejecutar composer en local
+ php composer.phar
+# Ejecutar composer en global
+composer
+
+# Crear un nuevo proyecto de Composer (composer.json)
+php composer.phar init
+
+# Actualizar proyecto
+php composer.phar dump-autoload
